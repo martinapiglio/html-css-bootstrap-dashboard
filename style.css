@@ -14,7 +14,7 @@ nav,
 .vp-container aside {
     width: 120px;
 
-    color: white;
+    font-size: 14px;
     background-color: #051e34;
     background-image: url('img/sidebar-bg.png');
 }
@@ -24,10 +24,8 @@ nav,
 }
 
 .vp-container .vp-inner-container header {
-    height: 100px; /* TEST */
-    background-color: #1b72e8;
-}
+    width: 100%;
 
-aside {
     font-size: 14px;
+    background-color: #1b72e8;
 }
