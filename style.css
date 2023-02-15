@@ -1,3 +1,26 @@
 nav {
     background-color: #f8f9fa;
 }
+
+.vp-container {
+    height: calc(100vh - 54px);
+}
+
+.vp-container aside {
+    width: 120px;
+    background-color: #051e34;
+    background-image: url('img/sidebar-bg.png');
+}
+
+.vp-container .vp-inner-container {
+    width: calc(100vw - 120px);
+}
+
+.vp-container .vp-inner-container header {
+    height: 100px; /* TEST */
+    background-color: #1b72e8;
+}
+
+.vp-container .vp-inner-container main {
+    background-color: #f8f9fa;
+}
