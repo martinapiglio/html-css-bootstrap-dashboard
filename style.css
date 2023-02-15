@@ -9,18 +9,17 @@ nav {
 
 .vp-container {
     height: calc(100vh - 54px);
+    font-size: 13px;
 }
 
 .vp-container aside {
     width: 120px;
-    font-size: 14px;
     background-color: #051e34;
     background-image: url('img/sidebar-bg.png');
 }
 
 .vp-container .vp-inner-container {
     width: calc(100% - 120px);
-    font-size: 14px;
 }
 
 .vp-container .vp-inner-container header {
@@ -34,5 +33,5 @@ nav {
 }
 
 main .row .col-8 .card .card-body table tbody tr td img {
-    height: 2.5em
+    height: 2em
 } 
