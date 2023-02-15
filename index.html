@@ -32,11 +32,11 @@
 
             <div class="col-auto">
                 <ul class="navbar-nav d-flex flex-row align-items-center gap-3">
-                    <li><a href=""><i class="fa-solid fa-list"></i></a></li>
-                    <li><a href=""><i class="fa-solid fa-circle-question"></i></a></li>
-                    <li><a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a></li>
+                    <li><a class="text-reset text-decoration-none" href=""><i class="fa-solid fa-list"></i></a></li>
+                    <li><a class="text-reset text-decoration-none" href=""><i class="fa-solid fa-circle-question"></i></a></li>
+                    <li><a class="text-reset text-decoration-none" href=""><i class="fa-solid fa-ellipsis-vertical"></i></a></li>
                     <!-- next li to be adj with dropdown menu -->
-                    <li><a href=""><i class="fa-solid fa-bell"></i></a></li>
+                    <li><a class="text-decoration-none" href=""><i class="fa-solid fa-bell"></i></a></li>
                     <!-- /// -->
                 </ul>
             </div>
@@ -47,8 +47,28 @@
 
     <div class="vp-container d-flex">
 
-        <aside>
+        <aside class="d-flex flex-column justify-content-between align-items-center">
             
+            <div class="aside-top d-flex flex-row pt-3">
+
+                <ul class="icons-list m-0 p-0 pe-2">
+                    <li class="pb-2"><i class="fa-solid fa-house"></i></li>
+                    <li class="pb-2"><i class="fa-solid fa-chart-simple"></i></li>
+                    <li class="pb-2"><i class="fa-solid fa-signal"></i></li>   
+                </ul>
+
+                <ul class="icons-list-txt m-0 p-0">
+                    <li class="pb-2"><span>Home</span></li>
+                    <li class="pb-2"><span>Stats</span></li>
+                    <li class="pb-2"><span>Signals</span></li>
+                </ul>
+
+            </div>
+                
+            <div class="aside-bottom pb-3">
+                <i class="fa-solid fa-gear pe-2"></i><span> Admin</span>
+            </div>
+
         </aside>
 
         <div class="vp-inner-container">

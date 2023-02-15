@@ -1,4 +1,9 @@
-nav {
+ul {
+    list-style: none;
+}
+
+nav,
+.vp-container .vp-inner-container main {
     background-color: #f8f9fa;
 }
 
@@ -8,6 +13,8 @@ nav {
 
 .vp-container aside {
     width: 120px;
+
+    color: white;
     background-color: #051e34;
     background-image: url('img/sidebar-bg.png');
 }
@@ -21,6 +28,6 @@ nav {
     background-color: #1b72e8;
 }
 
-.vp-container .vp-inner-container main {
-    background-color: #f8f9fa;
+aside {
+    font-size: 14px;
 }
