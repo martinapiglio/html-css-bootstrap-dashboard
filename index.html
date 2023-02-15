@@ -21,26 +21,30 @@
 
             <div class="col-auto">
                 <div class="logo d-flex align-items-center">
-                    <img src="img/logo.svg" alt="logo">
-                    <img class="d-none" src="img/mobile-logo.png" alt="mobile-logo">
+                    <a href="">
+                        <img src="img/logo.svg" alt="logo">
+                    </a>
+                    <a href="">
+                        <img class="d-none" src="img/mobile-logo.png" alt="mobile-logo">
+                    </a>
                 </div>
             </div>
 
             <div class="col">
                 <!-- add magnifing glass inside searchbar -->
-                <input type="search" class="form-control" name="search" placeholder="Prova a cercare: Lezioni di Laravel">
+                <input type="search" class="form-control bg-secondary bg-opacity-25" name="search" placeholder="Prova a cercare: Lezioni di Laravel">
                 <!-- /// -->
             </div>
 
             <div class="col-auto">
                 <ul class="navbar-nav d-flex flex-row align-items-center gap-3">
-                    <li><a class="text-reset text-decoration-none" href=""><i class="fa-solid fa-list"></i></a></li>
-                    <li><a class="text-reset text-decoration-none" href=""><i class="fa-solid fa-circle-question"></i></a></li>
-                    <li><a class="text-reset text-decoration-none" href=""><i class="fa-solid fa-ellipsis-vertical"></i></a></li>
+                    <li><a class="text-reset text-decoration-none" href=""><i class="fa-solid fa-list text-secondary"></i></a></li>
+                    <li><a class="text-reset text-decoration-none" href=""><i class="fa-solid fa-circle-question text-secondary"></i></a></li>
+                    <li><a class="text-reset text-decoration-none" href=""><i class="fa-solid fa-ellipsis-vertical text-secondary"></i></a></li>
                     <!-- li with dropdown menu -->
                     <li class="nav-item dropdown">
                         <a class="nav-link text-decoration-none" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="fa-solid fa-bell"></i>
+                            <i class="fa-solid fa-bell text-warning"></i>
                         </a>
                         <ul class="dropdown-menu">
                           <li><a class="dropdown-item" href="#">Profilo</a></li>
@@ -58,25 +62,18 @@
 
     <div class="vp-container d-flex">
 
-        <aside class="d-flex flex-column justify-content-between align-items-center text-white">
-            
-            <div class="aside-top d-flex flex-row pt-3">
+        <aside class="d-flex flex-column justify-content-between align-items-center text-white py-3">
 
-                <ul class="icons-list m-0 p-0 pe-2">
-                    <li class="pb-2"><i class="fa-solid fa-house"></i></li>
-                    <li class="pb-2"><i class="fa-solid fa-chart-simple"></i></li>
-                    <li class="pb-2"><i class="fa-solid fa-signal"></i></li>   
-                </ul>
-
-                <ul class="icons-list-txt m-0 p-0">
-                    <li class="pb-2"><span>Home</span></li>
-                    <li class="pb-2"><span>Stats</span></li>
-                    <li class="pb-2"><span>Signals</span></li>
+            <div class="aside-top">
+                <ul class="m-0 p-0">
+                    <li class="py-1 px-2"><i class="fa-solid fa-house me-2"></i><span class="icons-txt">Home</span></li>
+                    <li class="py-1 px-2"><i class="fa-solid fa-chart-simple me-2"></i><span class="icons-txt ms-1">Stats</span></li>
+                    <li class="py-1 px-2"><i class="fa-solid fa-signal me-2"></i><span class="icons-txt">Signals</span></li>
                 </ul>
 
             </div>
                 
-            <div class="aside-bottom pb-3">
+            <div class="aside-bottom py-1 px-2">
                 <i class="fa-solid fa-gear pe-2"></i><span> Admin</span>
             </div>
 
