@@ -9,6 +9,10 @@ nav {
     background-color: #f8f9fa;
 }
 
+nav .searchbar {
+    --bs-border-width: 0;
+}
+
 /* general container */
 .vp-container {
     height: calc(100vh - 54px);
