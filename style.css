@@ -39,21 +39,38 @@ nav {
 }
 
 .vp-container .vp-inner-container header {
-    height: 100px;
+    /* height: 90px; */
     background-color: #1b72e8;
 }
 
 /* main */
 .vp-container .vp-inner-container main {
-    height: calc(100% - 100px);
+    /* height: calc(100% - 90px); */
     background-color: #f8f9fa;
 }
 
-main .row .col-8 .card .card-body table tbody tr td img {
-    height: 2em
+main .row .col-12 .card .card-body table tbody tr td img {
+    height: 2em;
 } 
 
-main .row .col-8 .card .card-body table tbody tr:hover {
-    background-color: #edeced;
-}
+/* TEST */
+ #mobilelogo {
+    width: 2.5em;
+}  
+/* /TEST */
 
+
+
+@media screen and (max-width:992px) {
+    .vp-container aside {
+        width: 50px; 
+    }
+
+    .vp-container aside .icons-txt {
+        display: none;
+    }
+
+    .vp-container .vp-inner-container {
+        width: calc(100% - 50px);
+    }
+}
